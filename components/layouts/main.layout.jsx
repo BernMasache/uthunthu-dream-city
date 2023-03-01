@@ -235,7 +235,7 @@ function Page({ children }) {
               <div className="flex h-16 items-center">
                 <button
                   type="button"
-                  className="rounded-md bg-white p-2 text-white lg:hidden"
+                  className="rounded-md bg-gray-700 p-2 text-white lg:hidden"
                   onClick={() => setMobileMenuOpen(true)}
                 >
                   <span className="sr-only">Open menu</span>
